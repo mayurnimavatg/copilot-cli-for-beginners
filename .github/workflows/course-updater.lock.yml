@@ -41,9 +41,7 @@
 
 name: "Course Updater"
 "on":
-  schedule:
-  - cron: "38 11 * * *"
-    # Friendly format: daily (scattered)
+ 
   workflow_dispatch:
     inputs:
       aw_context:
